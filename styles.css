@@ -1,0 +1,54 @@
+body {
+    background-color: #818589;
+}
+
+.jumbotron {
+    background-image: url("img/forest-jumbotron.jpg");
+    background-size: auto;
+    background-position: 40% 45%;
+    margin-bottom: 0;
+}
+
+
+
+.carousel-item img {
+    height: 250px;
+    object-fit: cover;
+    float: left;
+    background-size: cover;
+}
+
+.product-card {
+    background-color: #36454F;
+    color: whitesmoke;
+}
+
+.product-card .card-body {
+    padding: 0.5rem;
+}
+
+.product-card h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.product-card .row {
+    margin: auto;
+}
+
+.product-card-price,
+.product-cost {
+    text-align: right;
+}
+
+.product-card-button-row {
+    justify-content: right;
+}
+
+.productImage,
+.product-image {
+    height: 250px;
+    object-fit: cover;
+    float: left;
+    background-size: cover;
+}
